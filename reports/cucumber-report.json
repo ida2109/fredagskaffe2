@@ -1,0 +1,517 @@
+[
+  {
+    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of coffee back\n  because I crave caffeine.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 630434
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 207171
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 386006
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 183509
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 194247
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 331112
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 673597
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 371242
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2383862938
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 84275
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 54941
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 59912
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 70744
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 42982
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 41586
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 37591
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 46767
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1357211121
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 78157
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 53814
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 62109
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 49897
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 42240
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 40816
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 56641
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 226730
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1300740783
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 75142
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 47793
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 53383
+            },
+            "line": 11,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 49720
+            },
+            "line": 12,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:65"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 908751
+            },
+            "line": 13,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 58798
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the \"start\" button",
+            "result": {
+              "status": "passed",
+              "duration": 31636
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:126"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee.",
+            "result": {
+              "status": "passed",
+              "duration": 76386
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/step-definitions/coffee-machine.js:143"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1339815776
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/thomasfrank/Desktop/cucumber-exempel-1/node_modules/selenium-cucumber-js/runtime/world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "/Users/thomasfrank/Desktop/cucumber-exempel-1/features/coffee-machine.feature"
+  }
+]
